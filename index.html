@@ -4,13 +4,16 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
-<link href="images/favicon.ico" rel="icon" type="image/x-icon" />
-<!-- Plombiers Title -->
+<!-- <link href="images/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link href="images/favicon.ico" rel="icon" type="image/x-icon" /> -->
+<!-- Title -->
 <title>Iceland Tours</title>
 <!-- css file -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/style.css">
+<!-- Firebase -->
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-auth.js"></script>
 <!-- Responsive stylesheet -->
 <link rel="stylesheet" href="css/responsive.css">
 <!-- REVOLUTION LAYERS STYLES -->
@@ -986,6 +989,21 @@ Please note that check-in at most hotels starts at 14:00 (2:00pm)</p>
 
 <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
 </div>
+<!-- Firebase -->
+
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDumOAuXF-uZczJDGdSnU1FXBV0vcxz8tk",
+    authDomain: "tours-af9d4.firebaseapp.com",
+    databaseURL: "https://tours-af9d4.firebaseio.com",
+    projectId: "tours-af9d4",
+    storageBucket: "",
+    messagingSenderId: "1074021989905"
+  };
+  firebase.initializeApp(config);
+</script>
 <!-- Wrapper End -->
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
